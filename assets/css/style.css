@@ -19,9 +19,12 @@ body {
     letter-spacing: 0.1em;
   }
 
+  /*Navigation*/
+
   #navbar {
     padding: 30px;
   }
+
   .nav-links {
     display: flex;
     flex-direction: row;
@@ -29,4 +32,23 @@ body {
     align-items: center;
     font-size: 140%;
     font-weight: 700;
+  }
+
+  .nav-links li {
+    list-style-type: none;
+    margin-left: 40px;
+  }
+  
+  .nav-links a {
+    color: #eee;
+    text-decoration: none;
+    padding: 10px;
+  }
+
+  .hero-img {
+    height: 600px;
+    background-image: url(../images/hero_img.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
   }
