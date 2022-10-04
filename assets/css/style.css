@@ -132,3 +132,19 @@ body {
     width: 100%;
     z-index: 3;
   }
+
+  /*About section*/
+
+  #company-info {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin-top: 20px;
+  }
+
+  .info-right, .info-left {
+    width: 40%;
+    margin: 0 auto;
+    text-align: center;
+    margin-top: 20px;
+  }
