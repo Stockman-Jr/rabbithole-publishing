@@ -45,10 +45,23 @@ body {
     padding: 10px;
   }
 
+  /* Header content and hero image */
+
   .hero-img {
     height: 600px;
     background-image: url(../images/hero_img.jpg);
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
+  }
+
+  .header-overlay {
+    background: linear-gradient(
+      rgba(0, 0, 0, 0.8),
+      rgba(1, 28, 49, 0.8),
+      rgba(3, 153, 145, 0.8)
+    );
+    overflow: hidden;
+    height: 100%;
+    z-index: 2;
   }
