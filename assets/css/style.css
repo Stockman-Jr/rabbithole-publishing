@@ -144,9 +144,15 @@ body {
 
   #about {
     display: flex;
+    flex-wrap: wrap;
     flex-direction: row;
     justify-content: center;
     margin-top: 20px;
+  }
+
+  .break {
+    flex-basis: 100%;
+    width: 0;
   }
 
   .info-right, .info-left {
