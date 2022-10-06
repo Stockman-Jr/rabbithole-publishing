@@ -276,3 +276,13 @@ body {
     padding: 5px;
     margin: 5px;
   }
+
+  footer {
+    display: flex;
+    justify-content: space-evenly;
+    height: 250px;
+    font-size: 150%;
+    
+  }
+
+  
