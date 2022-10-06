@@ -195,3 +195,9 @@ body {
     text-align: center;
     margin-top: 20px;
   }
+
+  #about  li {
+    list-style-type: none;
+    font-weight: 600;
+    margin: 5px;
+  }
