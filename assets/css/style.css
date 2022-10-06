@@ -279,10 +279,29 @@ body {
 
   footer {
     display: flex;
-    justify-content: space-evenly;
+    justify-content: space-between;
     height: 250px;
-    font-size: 150%;
+    font-size: 130%;
     
   }
 
+  .social-media, .contact-info {
+    margin: 2.5%;
+    text-align: center;
+    padding: 1%;
+  
+  }
+
+  .social-media li {
+    list-style-type: none;
+    display: inline;
+  }
+
+.social-media i {
+  font-size: 180%;
+  margin: 5%;
+  color: #004b4b;
+}
+  
+  
   
