@@ -254,3 +254,24 @@ body {
     object-position: center;
     border-radius: 10px 10px 0 0;
   }
+
+  .game-card-body {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    padding: 10px;
+  }
+
+  .game-card-body > p {
+    margin-top: 20px;
+    margin-bottom: 20px;
+  }
+  
+  .developer-info {
+    font-style: italic;
+    color: #818181;
+    font-size: 15px;
+    padding: 5px;
+    margin: 5px;
+  }
