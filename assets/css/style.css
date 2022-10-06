@@ -71,6 +71,13 @@ body {
     padding: 10px;
   }
 
+  .nav-links a:hover {
+    color: #06b6b6;
+    border: 3px solid #eee;
+    background-color: rgba(0, 0, 0, 0.4);
+    border-radius: 20px;
+  }
+
   /*Logo animation*/
 
   #logo {
@@ -135,7 +142,7 @@ body {
 
   /*About section*/
 
-  #company-info {
+  #about {
     display: flex;
     flex-direction: row;
     justify-content: center;
