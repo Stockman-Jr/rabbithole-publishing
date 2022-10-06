@@ -21,6 +21,19 @@ body {
     letter-spacing: 0.1em;
   }
 
+  h2 {
+    font-size: 160%;
+    text-transform: uppercase;
+    color: #eee;
+    background-color: #038686;
+    text-align: center;
+    max-width: max-content;
+    margin: 0 auto;
+    padding: 5px 30px 5px 30px;
+    border-radius: 4px;
+  }
+
+
   hr {
     border: 0;
     height: 1px;
@@ -44,6 +57,27 @@ body {
       rgba(0, 0, 0, 0)
     );
   }
+
+  /*Buttons*/
+
+  .apply-shortcut {
+    font-family: Fredoka, sans-serif;
+    font-weight: 700;
+    font-size: 120%;
+    color: #eee;
+    background-color: #038686;
+    text-align: center;
+    max-width: max-content;
+    margin-top: 30px;
+    padding: 15px 10px;
+    border-radius: 15px;
+  }
+
+  .apply-shortcut:hover {
+    border: 3px solid rgba(0, 0, 0, 0.4);
+    text-transform: uppercase;
+  }
+
 
   /*Navigation*/
 
