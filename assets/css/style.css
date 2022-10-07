@@ -96,7 +96,7 @@ body {
 
   .nav-links li {
     list-style-type: none;
-    margin-left: 40px;
+    margin: 1%;
   }
   
   .nav-links a {
@@ -278,6 +278,8 @@ body {
     padding: 5px;
     margin: 5px;
   }
+
+  /*Footer*/
 
   footer {
     display: flex;
