@@ -281,14 +281,14 @@ body {
 
   footer {
     display: flex;
-    justify-content: space-between;
-    height: 250px;
-    font-size: 130%;
+    justify-content: center;
+    height: 200px;
+    font-size: 100%;
     
   }
 
-  .social-media, .contact-info {
-    margin: 2.5%;
+  .social-media {
+    margin: 1%;
     text-align: center;
     padding: 1%;
   
@@ -302,10 +302,6 @@ body {
 .social-media i {
   font-size: 180%;
   margin: 5%;
-  color: #004b4b;
-}
-
-.contact-info a {
   color: #004b4b;
 }
 
@@ -333,7 +329,7 @@ body {
   #gamecard-wrapper > .break {
     display: none;
   }
-  
+
   .game-card {
    min-width: 40%;
   }
