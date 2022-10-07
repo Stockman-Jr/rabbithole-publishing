@@ -246,8 +246,7 @@ body {
     background-color: rgb(255, 255, 255);
     box-shadow: 0 2px 20px rgba(0, 0, 0, 0.2);
     border-radius: 10px;
-    width: 400px;
-    min-width: 340px;
+    width: 30%;
     margin: 20px;
   }
   
@@ -334,9 +333,9 @@ body {
   #gamecard-wrapper > .break {
     display: none;
   }
-
+  
   .game-card {
-    min-width: 550px;
+   min-width: 40%;
   }
 }
 
@@ -359,6 +358,19 @@ body {
   .apply-shortcut {
     margin: 0 auto;
   }
+
+}
+
+@media screen and (max-width: 800px) {
+
+  .header-content {
+    font-size: 120%;
+  }
+
+  .game-card {
+    min-width: 80%;
+  }
+
 
 }
   
