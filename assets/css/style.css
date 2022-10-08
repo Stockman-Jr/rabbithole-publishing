@@ -310,14 +310,17 @@ body {
 /*Application section*/
 
 #apply {
-  display: flex;
-  flex-direction: row;
   max-width: 950px;
   margin: 0 auto;
 }
 
 form {
   width: 100%;
+}
+
+.field {
+  display: flex;
+  padding: 2%;
 }
 
  input {
@@ -328,6 +331,7 @@ form {
   box-shadow: 0 2px 20px rgba(0, 0, 0, 0.2);
   width: 50%;
   height: 40px;
+  margin: 1%;
 
 }
 
