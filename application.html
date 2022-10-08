@@ -56,69 +56,69 @@
         <h3>Convinced we're the right partner for you? Apply here!</h3>
         <!--INTRODUCTION-->
         <h4>Introduction</h4>
-        <label for="fname">First Name</label>
-        <input
-          class="text-input"
-          id="fname"
-          name="first_name"
-          type="text"
-          required
-        />
+        <div class="field">
+          <input
+            class="text-input"
+            name="first_name"
+            type="text"
+            placeholder="First Name"
+            required
+          />
 
-        <label for="lname">Last Name</label>
-        <input
-          class="text-input"
-          id="lname"
-          name="last_name"
-          type="text"
-          required
-        />
+          <input
+            class="text-input"
+            name="last_name"
+            type="text"
+            placeholder="Last Name"
+            required
+          />
+        </div>
 
-        <label for="email">Email</label>
-        <input
-          class="text-input"
-          id="email"
-          name="email_adress"
-          type="email"
-          required
-        />
+        <div class="field">
+          <input
+            class="text-input"
+            name="email_adress"
+            type="email"
+            placeholder="Email"
+            required
+          />
 
-        <label for="aboutyou">About You</label>
-        <textarea
-          name="about_you"
-          id="aboutyou"
-          cols="30"
-          rows="10"
-          maxlength="500"
-          required
-        ></textarea>
+          <!--DEV INFO-->
 
-        <!--DEV INFO-->
-<h4>Dev information</h4>
-        <label for="cname">Company name</label>
-        <input
-          class="text-input"
-          id="cname"
-          name="company_name"
-          type="text"
-        />
+          <input
+            class="text-input"
+            name="company_name"
+            type="text"
+            placeholder="Company Name"
+          />
+        </div>
+        <div class="field">
+          <input
+            class="text-input"
+            name="website_adress"
+            type="text"
+            placeholder="Website URL"
+          />
 
-        <label for="website">Website</label>
-        <input
-          class="text-input"
-          id="website"
-          name="website_adress"
-          type="text"
-        />
+          <input
+            class="text-input"
+            name="team_size"
+            type="text"
+            placeholder="Team Size"
+            required
+          />
+        </div>
 
-        <label for="tsize">Team Size</label>
-        <input
-          class="text-input"
-          id="tsize"
-          name="team_size"
-          type="text"
-          required
-        />
+        <div class="field">
+          <textarea
+            name="about_you"
+            cols="30"
+            rows="10"
+            maxlength="500"
+            placeholder="Tell us about you and your team(if applicable)!"
+            required
+          ></textarea>
+        </div>
 
 
         <!--GAME INFO-->
@@ -131,24 +131,31 @@
 
     <!--Footer-->
     <footer>
-        <div class="social-media">
-            <h3>Follow us on social media!</h3>
-        <ul class="social-links">
-            <li><a href="https://twitter.com" target="_blank" rel="noopener"
-                    aria-label="Visit our Twitter page(opens in a new tab!)"><i class="fa-brands fa-instagram"></i></a>
-            </li>
-        
-            <li><a href="https://instagram.com" target="_blank" rel="noopener"
-                    aria-label="Visit our Instagram page(opens in a new tab!)"><i class="fa-brands fa-twitter"></i></a>
-            </li>
-        </ul>
-    </div>
+      <div class="social-media">
+          <h3>Keep yourself updated on our social media!</h3>
+          <ul class="social-links">
+              <li><a href="https://twitter.com" target="_blank" rel="noopener"
+                      aria-label="Visit our Twitter page(opens in a new tab!)"><i
+                          class="fa-brands fa-instagram"></i></a>
+              </li>
 
-    <div class="contact-info">
-        <h3>Contact:</h3>
-        <a href="#" target="_blank">rabbithole.publishing@mail.com</a>
-    </div>
-    </footer>
+              <li><a href="https://instagram.com" target="_blank" rel="noopener"
+                      aria-label="Visit our Instagram page(opens in a new tab!)"><i
+                          class="fa-brands fa-twitter"></i></a>
+              </li>
+
+              <li><a href="https://youtube.com" target="_blank" rel="noopener"
+                      aria-label="Visit our Youtube page(opens in a new tab!)"><i class="fa-brands fa-youtube"></i></a>
+              </li>
+
+              <li><a href="https://facebook.com" target="_blank" rel="noopener"
+                      aria-label="Visit our Facebook page(opens in a new tab!)"><i class="fa-brands fa-facebook"></i></a>
+              </li>
+          </ul>
+          <p>2022 <br> Project created for educational purposes only.</p>
+      </div>
+
+  </footer>
 
 
     <!--Fontawesome script-->

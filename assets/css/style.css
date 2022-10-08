@@ -311,7 +311,7 @@ body {
 
 #apply {
   display: flex;
-  flex-wrap: wrap;
+  flex-direction: row;
   max-width: 950px;
   margin: 0 auto;
 }
