@@ -28,7 +28,7 @@
 
                 <div class="header-content">
                     <a href="index.html">
-                        <img id="logo" src="/assets/images/rabbit-logo.png" alt="" />
+                        <img id="logo" src="assets/images/rabbit-logo.png" alt="" />
                     </a>
 
                     <h1>Rabbithole</h1>
@@ -54,6 +54,8 @@
         class="apply-form"
       >
         <h3>Convinced we're the right partner for you? Apply here!</h3>
+        <p>Please respond to as much fields as you can, as detailed as possible.
+        </p>
         <!--INTRODUCTION-->
         <h4>Introduction</h4>
         <div class="field">
@@ -123,6 +125,99 @@
 
         <!--GAME INFO-->
         <h4>Game Information</h4>
+        <div class="field">
+          <input
+            class="text-input"
+            name="game_name"
+            type="text"
+            placeholder="Game Name *"
+            required
+          />
+
+          <input
+            class="text-input"
+            name="game_genre"
+            type="text"
+            placeholder="Game Genre *"
+            required
+          />
+        </div>
+
+        <div class="field">
+          <input
+            class="text-input"
+            name="game_site"
+            type="text"
+            placeholder="Game Website URL"
+            
+          />
+
+          <input
+            class="text-input"
+            name="video_url"
+            type="text"
+            placeholder="Gameplay Video URL"
+           
+          />
+        </div>
+
+        
+        <div class="field">
+          <textarea
+            name="game_description"
+            cols="30"
+            rows="10"
+            maxlength="800"
+            placeholder="Game description *"
+            required
+          ></textarea>
+        </div>
+
+        <h4>Publishing Needs:</h4>
+        <div class="field">
+          <label for="funding">Funding</label>
+          <input
+            name="publishing_needs"
+            type="radio"
+            id="funding"
+            value="funding"
+          />
+
+          <label for="marketing">Marketing</label>
+          <input
+            name="publishing_needs"
+            type="radio"
+            id="marketing"
+            value="marketing"
+          />
+
+          <label for="porting">Porting</label>
+          <input
+            name="publishing_needs"
+            type="radio"
+            id="porting"
+            value="porting"
+          />
+
+          <label for="localization">Localization</label>
+          <input
+            name="publishing_needs"
+            type="radio"
+            id="localization"
+            value="localization"
+          />
+
+          <label for="other">Other</label>
+          <input
+            name="publishing_needs"
+            type="radio"
+            id="other"
+            value="other"
+          />
+        </div>
+<div class="field"><input type="submit" value="Submit"></div>
+      
+
       </form>
 
 

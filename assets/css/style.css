@@ -321,7 +321,7 @@ form {
   padding: 2%;
 }
 
-input {
+input[type=text], input[type=email] {
   border: none;
   border-bottom: 3px solid #004b4b;
   border-radius: 10px;
