@@ -21,7 +21,7 @@ h1 {
   letter-spacing: 0.1em;
 }
 
-h2 {
+h2, h4 {
   font-size: 160%;
   text-transform: uppercase;
   color: #eee;
@@ -33,6 +33,10 @@ h2 {
   border-radius: 4px;
 }
 
+#apply h4 {
+  font-size: 140%;
+  margin-top: 20px;
+}
 
 hr {
   border: 0;
