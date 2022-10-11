@@ -12,6 +12,9 @@
   * [Typography](#typography)
   * [Imagery](#imagery)
 * [Features](#features)
+    * [Existing Features](#existing-features)
+    * [Future Features](#future-features)
+
 * [Testing](#testing)
 * [Technologies Used](#technologies-used)
 * [Deployment](#deployment)
@@ -71,13 +74,26 @@ Included on both pages, allows user to easily navigate between all sections on t
       The user gets to see what games has been published and is being developed together with Rabbithole, which hopefully drives in more business.
 
 #### Apply Page:
+This page features a form for developers to send in an application for their game.
+The form is divided into two sections with h3 headings in the same style as the h2 headings in the about section - Introduction and Game Information.
+
 
 
 #### The Footer: 
+  * Includes a heading and social media links, all which opens up in a new tab when clicked.
+    * The text "Project created for educational purposes only" was added because some of the images in the card section was sourced from talented artists, and I do not have the rights to them. These images will be credited and links to their art portfolios will be provided in this document.
+
 
 
 
 ### Future Features
+  * Collapsed menu for smaller screens
+    * Add a function that would take user to top of the screen
+
+If Rabbithole wasn't a fictional company, I'd add features like:
+  * Make the cards in games section actual links that would take the user to another page with more details and updates about the games, or an actual game website.
+    * A blog, or a newsfeed of some sort.
+
 
 ---
 
@@ -90,6 +106,13 @@ Included on both pages, allows user to easily navigate between all sections on t
 ---
 
 ## Deployment
+
+This website was deployed to GitHud pages.The steps to deploy are as follows:
+  * In the GitHub repository, navigate to the Settings tab
+  * From the source section drop-down menu, select the Master Branch
+  * Once the master branch has been selected, the page will be automatically   refreshed with a detailed ribbon display to indicate the successful deployment.
+
+  The live link can be found here: https://stockman-jr.github.io/rabbithole-publishing/
 
 ---
 
