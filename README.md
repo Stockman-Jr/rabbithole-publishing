@@ -99,9 +99,23 @@ If Rabbithole wasn't a fictional company, I'd add features like:
 
 ## Testing
 
+### Validator Testing
+
 ---
 
 ## Technologies Used
+
+### Main Languages Used
+  * HTML5
+  * CSS3
+
+### Frameworks, Libraries & Programs Used
+  * Google Fonts
+  * Fontawesome
+  * GitHub
+  * GitPod
+  * Vistual Studio Code
+  * [tinyPNG](https://tinypng.com/)
 
 ---
 
