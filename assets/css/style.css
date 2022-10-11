@@ -53,6 +53,10 @@ hr {
       rgba(119, 119, 119, 0));
 }
 
+#games > hr {
+  width: 30%;
+}
+
 #hr-vert {
   border: none;
   border-left: 3px;
@@ -244,7 +248,7 @@ hr {
 
 #games>h1 {
   color: #ffffff;
-  margin: 15px;
+  margin-top: 20px;
 }
 
 #gamecard-wrapper {
