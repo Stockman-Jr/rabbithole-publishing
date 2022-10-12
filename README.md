@@ -67,7 +67,8 @@ Included on both pages, allows user to easily navigate between all sections on t
 
 ![Landing Page](assets/readme-images/landing_page.png)
 
-  * Includes the navigation bar, background image, logo, company name and an introduction to Rabbithole.
+  * Is the header section of the site, included on both pages.
+  * Features the navigation bar, background image, logo, company name and an introduction to Rabbithole.
   * Purpose of this landing page is to immediately inform the user what Rabbithole is all about. I used an animation for the logo to draw the eyes to the middle of the screen where the information is provided.
 
 #### About Section
@@ -85,13 +86,16 @@ Included on both pages, allows user to easily navigate between all sections on t
       The user gets to see what games has been published and is being developed together with Rabbithole, which hopefully drives in more business.
 
 #### Apply Page:
-This page features a form for developers to send in an application for their game.
+  * This page features a form for developers to send in an application for their game.
 The form is divided into two sections with h3 headings in the same style as the h2 headings in the about section - Introduction and Game Information.
+
+![Apply Page](assets/readme-images/form_intro.png) 
 
 
 
 #### The Footer: 
-  * Includes a heading and social media links, all which opens up in a new tab when clicked.
+  * Includes a heading and social media links, which all opens up in a new tab when clicked.
+  ![The Footer](assets/readme-images/footer.png)
     * The text "Project created for educational purposes only" was added because some of the images in the card section was sourced from talented artists, and I do not have the rights to them. These images will be credited and links to their art portfolios will be provided in this document.
 
 
