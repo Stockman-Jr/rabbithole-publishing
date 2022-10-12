@@ -376,6 +376,32 @@ input[type=submit] {
 }
 
 
+/*Thank you message form submit*/
+
+.msg-container {
+  max-width: 600px;
+}
+
+.thank-you-message {
+  background: linear-gradient(#004b4b, #06b6b6);
+  color: #ebebeb;
+  padding: 5%;
+  text-align: center;
+  border-radius: 20px;
+  margin-bottom: 20px;
+}
+
+.thank-you-message p {
+  margin-top: 20px;
+}
+
+.return-link {
+  color: #004b4b;
+  font-weight: 700;
+  margin-top: 20px;
+  text-align: center;
+}
+
 
 /*MEDIA QUERIES*/
 
