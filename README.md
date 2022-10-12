@@ -93,7 +93,12 @@ The form is divided into two sections with h3 headings in the same style as the 
 
 * Proof form working correctly:
 
-![Submit Form](assets/readme-images/form_submit.png)
+![Form Submit](assets/readme-images/form_submit.png)
+
+* After testing form, I created a thank you page and directed the user there after submitting application, which displays a thank you message and a link back to 'Home':
+![Form Submit](assets/readme-images/submit_message.png)
+
+
 
 
 
@@ -118,7 +123,26 @@ If Rabbithole wasn't a fictional company, I'd add features like:
 
 ## Testing
 
+Testing was ongoing throughout the entire build, Chrome Developers Tools was actively used to check for, identify and resolve problems.
+I have also used Chrome Dev tools device toolbar to check responsiveness on different screen sizes.
+I have tested the website in multiple browsers without noticing any issues:
+  * Chrome
+  * Mozilla Firefox
+  * Microsoft Edge
+  * Safari on iPad Air
+
+### Lighthouse Testing
+I used Lighthouse in Chrome Dev tools to test performance, accessibility and best practices.
+
+#### Index Page
+![Lighthouse Result](assets/readme-images/lighthouse_index.png)
+
+#### Application Page
+![Lighthouse Result](assets/readme-images/lighthouse_apply.png)
+
 ### Validator Testing
+
+W3C was used to validate html code on all pages and the CSS code.
 
 ---
 
