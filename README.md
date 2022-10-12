@@ -58,19 +58,30 @@ The rest was sourced from some incredibly talented artists, all of which will be
 ### Existing Features
 
 #### Navigation bar:
-Included on both pages, allows user to easily navigate between all sections on the 'Home' page and 'Apply' page.
+Included on both pages, allows user to easily navigate between all sections on the 'Home' page and 'Apply' page. All links also has a hover effect.
+
+![Navigation Bar](assets/readme-images/navigation.png)
+  
 
 #### The Landing Page:
-  * Includes the navigation bar, background image, animated logo, company name and a short description of Rabbithole and what they do.
-    * Purpose of this landing page is to immediately inform the user what Rabbithole is all about. I used an animation for the logo to draw the eyes to the middle of the screen where the information is provided.
+
+![Landing Page](assets/readme-images/landing_page.png)
+
+  * Includes the navigation bar, background image, logo, company name and an introduction to Rabbithole.
+  * Purpose of this landing page is to immediately inform the user what Rabbithole is all about. I used an animation for the logo to draw the eyes to the middle of the screen where the information is provided.
 
 #### About Section
   * This section provides some more info about the company divided into two parts: what they're looking for and what they can provide for potential partners. It also includes a button that can take you directly to the application page.
 
+  ![About Section](assets/readme-images/about_section.png)
+
 #### Games Section
   * Consists of cards displaying what games has been created or what's being developed in partnership with Rabbithole.
-    * The cards features a small preview of concept art, game title, short game description and name of developer.
-      * The intention of this section is to provide more trust for Rabbithole as an already established publishing company.
+
+![Games Section](assets/readme-images/games_section.png)
+
+  * The cards features a small preview of concept art, game title, short game description and name of developer.
+    * The intention of this section is to provide more trust for Rabbithole as an already established publishing company.
       The user gets to see what games has been published and is being developed together with Rabbithole, which hopefully drives in more business.
 
 #### Apply Page:
