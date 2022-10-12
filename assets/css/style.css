@@ -53,7 +53,7 @@ hr {
       rgba(119, 119, 119, 0));
 }
 
-#games > hr {
+#games>hr {
   width: 30%;
 }
 
@@ -461,16 +461,39 @@ main {
   }
 }
 
-@media screen and (max-width: 370px) {
+@media screen and (max-width: 400px) {
 
   .nav-links {
-    font-size: 140%;
+    font-size: 150%;
   }
-  
-.nav-links li {
-  margin: 0;
-}
+
+  .nav-links li {
+    margin: 0;
+  }
+
   .header-content {
     font-size: 110%;
+  }
+
+}
+
+@media screen and (max-width: 340px) {
+
+  .nav-links {
+    flex-wrap: wrap;
+  }
+
+  .nav-links a:hover {
+    color: #06b6b6;
+    border: none;
+    background-color: transparent;
+  }
+
+  .header-content {
+    font-size: 100%;
+  }
+
+  .header-content h1 {
+    font-size: 200%;
   }
 }
