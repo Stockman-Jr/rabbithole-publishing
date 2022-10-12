@@ -21,6 +21,8 @@ Link to site: https://stockman-jr.github.io/rabbithole-publishing/index.html
     * [Existing Features](#existing-features)
     * [Future Features](#future-features)
 * [Testing](#testing)
+    * [Validator Testing](#validator-testing)
+    * [Bugs](#bugs)
 * [Technologies Used](#technologies-used)
 * [Deployment](#deployment)
 * [Credits](#credits)
@@ -209,6 +211,8 @@ This website was deployed to GitHud pages.The steps to deploy are as follows:
 ---
 
 ## Credits
+
+Text content and some design elements was inspired by this site: [BIGMODE](https://bigmode.com/)
 
 ### Code
 
