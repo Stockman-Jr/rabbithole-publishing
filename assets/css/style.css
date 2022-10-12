@@ -378,6 +378,14 @@ input[type=submit] {
 
 /*Thank you message form submit*/
 
+main {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  min-height: 100vh;
+}
+
 .msg-container {
   max-width: 600px;
 }
@@ -393,6 +401,10 @@ input[type=submit] {
 
 .thank-you-message p {
   margin-top: 20px;
+}
+
+.thank-you-message h1 {
+  font-size: 180%;
 }
 
 .return-link {
