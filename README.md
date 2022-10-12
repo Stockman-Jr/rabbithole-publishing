@@ -1,4 +1,8 @@
 # Rabbithole
+Rabbithole is a website created for a fictional indie game publishing company that looks for indie game developers with creative game ideas. The sites main purpose is to find talented
+indie game developers who wants to launch a successful game but might not have the resources to do so. That's where Rabbithole can offer developer-friendly contracts and provide them with any publishing needs they might have.
+
+![Am I Responsive](assets/readme-images/responsive_img.png)
 - - - 
 
 ## Table of Contents
@@ -50,6 +54,10 @@ Berkshire Swash was applied h1 headings because I wanted something abit 'fairyta
 ### Imagery
 Half of the images on this site was sourced from free stock photo platforms.
 The rest was sourced from some incredibly talented artists, all of which will be credited in this document. The background image of the header section was reused in the games section, except I turned it upside down for a subtle, cheeky reference to 'Down the Rabbithole'. The logo was created by me in Procreate.
+
+### Responsive Design
+The responsiveness of the site was achieved through the use of flexbox and media queries.
+
 - - -
 
 ## Features
@@ -91,23 +99,19 @@ The form is divided into two sections with h3 headings in the same style as the 
 ![Apply Page](assets/readme-images/form_intro.png) 
 ![Apply Page](assets/readme-images/form_gameinfo.png) 
 
-* Proof form working correctly:
+* Proof of form working correctly:
 
 ![Form Submit](assets/readme-images/form_submit.png)
 
 * After testing form, I created a thank you page and directed the user there after submitting application, which displays a thank you message and a link back to 'Home':
+
 ![Form Submit](assets/readme-images/submit_message.png)
-
-
-
 
 
 #### The Footer: 
   * Includes a heading and social media links, which all opens up in a new tab when clicked.
   ![The Footer](assets/readme-images/footer.png)
     * The text "Project created for educational purposes only" was added because some of the images in the card section was sourced from talented artists, and I do not have the rights to them. These images will be credited and links to their art portfolios will be provided in this document.
-
-
 
 
 ### Future Features
@@ -142,7 +146,37 @@ I used Lighthouse in Chrome Dev tools to test performance, accessibility and bes
 
 ### Validator Testing
 
-W3C was used to validate html code on all pages and the CSS code.
+W3C was used to validate html code on all pages and the CSS code. The css code was approved on first check, some adjustments had to be made to html code to pass.
+
+#### CSS
+![CSS Validation](assets/readme-images/css_validation.png)
+
+(Sorry about the Swedish validation)
+
+#### HTML
+![HTML Validation](assets/readme-images/html_validation.png)
+
+
+### Bugs
+
+#### Card Elements & Apply Button
+  * **Expected** - to have three cards on each row on bigger screen sizes, and apply button on index page to sit underneath text content.
+  * **Testing** - tested different flex properties, launched website through terminal to see different outcomes.
+  * **Result** - nothing I tried forced specific elements to a new row.
+  * **Fix** - found a solution through this [article](https://tobiasahlin.com/blog/flexbox-break-to-new-row/) by creating a break div set to flex-basis: 100% and width: 0;
+
+  #### Invisible hr element
+  * **Expected** - hr element in games section to appear the same as in header content.
+  * **Testing** - launched website through terminal to see appearance, tried moving element inside h1 heading, tested different css properties 
+  * **Result** - the element was still invisible, or not approved by html validator
+  * **Fix** - by selecting #games > hr in css and setting a width of 30%
+
+  #### 
+  * **Expected**
+  * **Testing**
+  * **Result**
+  * **Fix**
+
 
 ---
 
