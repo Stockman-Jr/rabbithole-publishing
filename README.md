@@ -3,6 +3,8 @@ Rabbithole is a website created for a fictional indie game publishing company th
 indie game developers who wants to launch a successful game but might not have the resources to do so. That's where Rabbithole can offer developer-friendly contracts and provide them with any publishing needs they might have.
 
 ![Am I Responsive](assets/readme-images/responsive_img.png)
+
+Link to site: https://stockman-jr.github.io/rabbithole-publishing/index.html
 - - - 
 
 ## Table of Contents
@@ -36,8 +38,6 @@ Build a sense of trust for the company to encourage indie game developers to app
 ### Audience
 The main target audience is indie game developers, but everyone with a love for videogames would be a benefitial audience.
 
-
-### User Goals
 
 ---
 ## Design
