@@ -14,7 +14,6 @@
 * [Features](#features)
     * [Existing Features](#existing-features)
     * [Future Features](#future-features)
-
 * [Testing](#testing)
 * [Technologies Used](#technologies-used)
 * [Deployment](#deployment)
@@ -90,6 +89,11 @@ Included on both pages, allows user to easily navigate between all sections on t
 The form is divided into two sections with h3 headings in the same style as the h2 headings in the about section - Introduction and Game Information.
 
 ![Apply Page](assets/readme-images/form_intro.png) 
+![Apply Page](assets/readme-images/form_gameinfo.png) 
+
+* Proof form working correctly:
+
+![Submit Form](assets/readme-images/form_submit.png)
 
 
 
@@ -125,12 +129,13 @@ If Rabbithole wasn't a fictional company, I'd add features like:
   * CSS3
 
 ### Frameworks, Libraries & Programs Used
-  * Google Fonts
-  * Fontawesome
-  * GitHub
+  * Google Fonts - To find and import fonts used on the website
+  * Fontawesome - To add icons
+  * GitHub - To save and store files for the website.
   * GitPod
-  * Vistual Studio Code
-  * [tinyPNG](https://tinypng.com/)
+  * Vistual Studio Code(desktop) - For testing and experimenting with code and different layouts. 
+  * [tinyPNG](https://tinypng.com/) - For optimizing images.
+  * Procreate - To create logo
 
 ---
 
@@ -146,3 +151,34 @@ This website was deployed to GitHud pages.The steps to deploy are as follows:
 ---
 
 ## Credits
+
+### Code
+
+#### .break Elements
+  * The idea of creating these to force a new row was taken from this [article](https://tobiasahlin.com/blog/flexbox-break-to-new-row/)
+
+#### Footer
+  * Social media links code was taken from CIs [Love Running Project](https://github.com/Code-Institute-Org/love-running-2.0)
+
+#### Hr elements
+  * The css code for the fading look of hr elements was taken from [here](https://css-tricks.com/examples/hrs/)
+
+### Media
+
+#### Images
+  * Header and games section bg image - found on [pixabay](https://pixabay.com/) 
+
+#### Card Art
+  * 'Cardverse' Art - from [OpenGameArt](https://opengameart.org/content/chess-and-cards-game-girl)
+  * 'Speck in Space' Art - from [freepik](http://www.freepik.com): Designed by upklyak.
+
+  The rest of the art were found on pinterest, i will provide direct links to the art but also links to the artists art portfolios.
+  * 'Legend of the Skies' - from [link](https://twitter.com/shant_elife/status/1309414165996593153)
+    * Art made by Anton Fadeev[@Artstation](https://www.artstation.com/shant)
+  * 'Witches' brew of life' - from [link](https://www.artstation.com/artwork/XnaNVY)
+    *  Art made by Christina Barton[@Artstation](https://www.artstation.com/chrissabug)
+  * 'No-Gravity' - from [link](https://rikelee.cgsociety.org/ly9w/emergency)
+    * Art made by rikelee@[cgsociety](https://rikelee.cgsociety.org/)
+  * 'Grimwood' - from [link](https://www.deviantart.com/tacosauceninja/art/Woods-Of-Suicide-572712383)
+    * Art made by TacoSauceNinja@[deviantart](https://www.deviantart.com/tacosauceninja)
+
