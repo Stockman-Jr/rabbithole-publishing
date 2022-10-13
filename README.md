@@ -75,7 +75,7 @@ The responsiveness of the site was achieved through the use of flexbox and media
 ### Existing Features
 
 #### Navigation bar:
-Included on both pages, allows user to easily navigate between all sections on the 'Home' page and 'Apply' page. All links also has a hover effect.
+Included on all pages, allows user to easily navigate between all sections on the 'Home' page and 'Apply' page. All links also has a hover effect.
 
 ![Navigation Bar](assets/readme-images/navigation.png)
   
@@ -84,7 +84,7 @@ Included on both pages, allows user to easily navigate between all sections on t
 
 ![Landing Page](assets/readme-images/landing_page.png)
 
-  * Is the header section of the site, included on both pages.
+  * Is the header section of the site, included on 'Home' and 'Apply page.
   * Features the navigation bar, background image, logo, company name and an introduction to Rabbithole.
   * Purpose of this landing page is to immediately inform the user what Rabbithole is all about. I used an animation for the logo to draw the eyes to the middle of the screen where the information is provided.
 
@@ -114,6 +114,7 @@ The form is divided into two sections with h3 headings in the same style as the 
 * Proof of form working correctly:
 
 ![Form Submit](assets/readme-images/form_submit.png)
+![Data Sent](assets/readme-images/data_sent.png)
 
 * After testing form, I created a thank you page and directed the user there after submitting application, which displays a thank you message and a link back to 'Home':
 
@@ -184,10 +185,10 @@ W3C was used to validate html code on all pages and the CSS code. The css code w
   * **Fix** - by selecting #games > hr in css and setting a width of 30%
 
   #### 
-  * **Expected**
-  * **Testing**
-  * **Result**
-  * **Fix**
+  * **Expected** - apply button on index page to stay centered on all screen sizes
+  * **Testing** - launch website through terminal, check appearance, resize browser to see where it goes off-center
+  * **Result** - button places itself to the left at around 950px
+  * **Fix** - add margin: 0 auto; on the .shortcut div that wraps around the button at media queries max-width 950px 
 
 ### Unsolved bugs
   * No unsolved bugs.
@@ -202,7 +203,7 @@ W3C was used to validate html code on all pages and the CSS code. The css code w
 ### Frameworks, Libraries & Programs
   * [Google Fonts](https://fonts.google.com/) - To find and import fonts used on the website
   * [Fontawesome](https://fontawesome.com/) - To add icons
-  * GitHub - To save and store files for the website.
+  * [GitHub](https://github.com/) - To save and store files for the website.
   * Git - For version control.
   * Vistual Studio Code(desktop) - For testing and experimenting with code and different layouts. 
   * [tinyPNG](https://tinypng.com/) - For optimizing images.
@@ -244,6 +245,10 @@ This website was deployed to GitHud pages.The steps to deploy are as follows:
 Some text content and design elements was inspired by this site: [BIGMODE](https://bigmode.com/)
 
 ### Media
+
+#### Fonts
+  * [Berkshire Swash](https://fonts.google.com/specimen/Berkshire+Swash?query=berksh)
+  * [Fredoka](https://fonts.google.com/specimen/Fredoka?query=fredoka)
 
 #### Images
   * Header and games section bg image - found on [pixabay](https://pixabay.com/) 
