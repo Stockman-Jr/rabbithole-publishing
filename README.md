@@ -2,6 +2,8 @@
 Rabbithole is a website created for a fictional indie game publishing company that looks for indie game developers with creative game ideas. The sites main purpose is to find talented
 indie game developers who wants to launch a successful game but might not have the resources to do so. That's where Rabbithole can offer developer-friendly contracts and provide them with any publishing needs they might have.
 
+ > *"An indie game, short for independent video game, is a video game typically created by individuals or smaller development teams without the financial and technical support of a large game publisher, in contrast to most "AAA" (triple-A) games. However, the "indie" term may apply to other scenarios where the development of the game has some measure of independence from a publisher even if a publisher helps fund and distribute a game, such as creative freedom."*  - [Wikipedia](https://en.wikipedia.org/wiki/Indie_game)
+
 ![Am I Responsive](assets/readme-images/responsive_img.png)
 
 Link to site: https://stockman-jr.github.io/rabbithole-publishing/index.html
@@ -23,10 +25,16 @@ Link to site: https://stockman-jr.github.io/rabbithole-publishing/index.html
 * [Testing](#testing)
     * [Validator Testing](#validator-testing)
     * [Bugs](#bugs)
+    * [Unsolved Bugs](#unsolved-bugs)
 * [Technologies Used](#technologies-used)
+  * [Main Languages](#main-languages)
+  * [Frameworks, Libraries & Programs](#frameworks-libraries--programs)
 * [Deployment](#deployment)
 * [Credits](#credits)
-
+  * [Code](#code)
+  * [Content](#content)
+  * [Media](#media)
+  
 - - - 
 
 ## UX
@@ -164,14 +172,14 @@ W3C was used to validate html code on all pages and the CSS code. The css code w
 ### Bugs
 
 #### Card Elements & Apply Button
-  * **Expected** - to have three cards on each row on bigger screen sizes, and apply button on index page to sit underneath text content.
+  * **Expected** - to have three cards on each row on bigger screen sizes, and apply button on index page to sit underneath text content
   * **Testing** - tested different flex properties, launched website through terminal to see different outcomes.
-  * **Result** - nothing I tried forced specific elements to a new row.
+  * **Result** - nothing I tried forced specific elements to a new row
   * **Fix** - found a solution through this [article](https://tobiasahlin.com/blog/flexbox-break-to-new-row/) by creating a break div set to flex-basis: 100% and width: 0;
 
   #### Invisible hr element
-  * **Expected** - hr element in games section to appear the same as in header content.
-  * **Testing** - launched website through terminal to see appearance, tried moving element inside h1 heading, tested different css properties 
+  * **Expected** - hr element in games section to appear the same as in header section
+  * **Testing** - launched website through terminal to see appearance, tried moving element inside h1 heading, tested different css properties
   * **Result** - the element was still invisible, or not approved by html validator
   * **Fix** - by selecting #games > hr in css and setting a width of 30%
 
@@ -181,16 +189,17 @@ W3C was used to validate html code on all pages and the CSS code. The css code w
   * **Result**
   * **Fix**
 
-
+### Unsolved bugs
+  * No unsolved bugs.
 ---
 
 ## Technologies Used
 
-### Main Languages Used
+### Main Languages
   * HTML5
   * CSS3
 
-### Frameworks, Libraries & Programs Used
+### Frameworks, Libraries & Programs
   * [Google Fonts](https://fonts.google.com/) - To find and import fonts used on the website
   * [Fontawesome](https://fontawesome.com/) - To add icons
   * GitHub - To save and store files for the website.
@@ -216,18 +225,23 @@ This website was deployed to GitHud pages.The steps to deploy are as follows:
 
 ## Credits
 
-Text content and some design elements was inspired by this site: [BIGMODE](https://bigmode.com/)
-
 ### Code
 
 #### .break Elements
-  * The idea of creating these to force a new row was taken from this [article](https://tobiasahlin.com/blog/flexbox-break-to-new-row/)
+  * The idea of creating these divs to force a new row was taken from this [article](https://tobiasahlin.com/blog/flexbox-break-to-new-row/)
 
 #### Footer
   * Social media links code was taken from CIs [Love Running Project](https://github.com/Code-Institute-Org/love-running-2.0)
 
 #### Hr elements
   * The css code for the fading look of hr elements was taken from [here](https://css-tricks.com/examples/hrs/)
+
+#### Logo Animation
+  * Code for bounce animation on the logo was taken from [here](https://codepen.io/nelledejones/pen/gOOPWrK)
+
+### Content
+
+Some text content and design elements was inspired by this site: [BIGMODE](https://bigmode.com/)
 
 ### Media
 
