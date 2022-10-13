@@ -81,7 +81,8 @@ Included on both pages, allows user to easily navigate between all sections on t
   * Purpose of this landing page is to immediately inform the user what Rabbithole is all about. I used an animation for the logo to draw the eyes to the middle of the screen where the information is provided.
 
 #### About Section
-  * This section provides some more info about the company divided into two parts: what they're looking for and what they can provide for potential partners. It also includes a button that can take you directly to the application page.
+  * This section provides some more info about the company divided into two parts. It also includes a button that can take you directly to the application page.
+  * This will let the user know what Rabbithole is looking for, and what they can provide for potential partners.
 
   ![About Section](assets/readme-images/about_section.png)
 
@@ -96,7 +97,8 @@ Included on both pages, allows user to easily navigate between all sections on t
 
 #### Apply Page:
   * This page features a form for developers to send in an application for their game.
-The form is divided into two sections with h3 headings in the same style as the h2 headings in the about section - Introduction and Game Information.
+The form is divided into two sections with h3 headings in the same style as the h2 headings in the about section for consistency.
+* Here the user will provide information about themselves and their team(if they have a team), and their game.
 
 ![Apply Page](assets/readme-images/form_intro.png) 
 ![Apply Page](assets/readme-images/form_gameinfo.png) 
@@ -131,7 +133,7 @@ If Rabbithole wasn't a fictional company, I'd add features like:
 
 Testing was ongoing throughout the entire build, Chrome Developers Tools was actively used to check for, identify and resolve problems.
 I have also used Chrome Dev tools device toolbar to check responsiveness on different screen sizes.
-I have tested the website in multiple browsers without noticing any issues:
+I have tested the website in the following browsers without noticing any issues:
   * Chrome
   * Mozilla Firefox
   * Microsoft Edge
@@ -189,13 +191,15 @@ W3C was used to validate html code on all pages and the CSS code. The css code w
   * CSS3
 
 ### Frameworks, Libraries & Programs Used
-  * Google Fonts - To find and import fonts used on the website
-  * Fontawesome - To add icons
+  * [Google Fonts](https://fonts.google.com/) - To find and import fonts used on the website
+  * [Fontawesome](https://fontawesome.com/) - To add icons
   * GitHub - To save and store files for the website.
-  * GitPod
+  * Git - For version control.
   * Vistual Studio Code(desktop) - For testing and experimenting with code and different layouts. 
   * [tinyPNG](https://tinypng.com/) - For optimizing images.
   * Procreate - To create logo
+  * [Am I Responsive?](https://ui.dev/amiresponsive) - To display website on different devices.
+
 
 ---
 
